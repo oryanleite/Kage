@@ -4,16 +4,16 @@ exports.run = async (client, message, args) => {
   var string = args.join(" ");
   var colors = [
     {
-      name: "Vermelho",
-      id: "718682970621214760"
+      name: "Laranja",
+      id: "832424312836718614"
     },
     {
       name: "Verde",
-      id: "718339251871416372"
+      id: "832424312836718613"
     },
     {
-      name: "Azuk",
-      id: "732430159428321340"
+      name: "Azul",
+      id: "832424312820203586"
     }
   ];
   var names = colors.map(function(item) {
