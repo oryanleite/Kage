@@ -24,7 +24,7 @@ module.exports.run = async(client,message,args) => {
     "Mais e Claro",
     "Certeza Que Sim",
     "COM CERTEZA",
-    "Modo Vidente Está Desligado (mentira e preguica mesmo ;-;)"]
+    "Modo Vidente Está Desligado"]
 
     let y = i[Math.floor(i.length * Math.random())]
 
