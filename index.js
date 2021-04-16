@@ -36,8 +36,8 @@ client.on('message', message => {
 
 client.on("guildMemberAdd", async (member) => {
 
-  let guild = await client.guilds.cache.get("812178634957389854");
-  let channel = await client.channels.cache.get("812178634957389857");
+  let guild = await client.guilds.cache.get("832424312773410886");
+  let channel = await client.channels.cache.get("832424312858083407");
   let emoji = await member.guild.emojis.cache.find(emoji => emoji.name === "narutojuliet");
   if (guild != member.guild) {
     return console.log("Sem boas-vindas pra você!");
@@ -58,8 +58,8 @@ client.on("guildMemberAdd", async (member) => {
 
 client.on("guildMemberRemove", async (member) => {
 
-  let guild = await client.guilds.cache.get("812178634957389854");
-  let channel = await client.channels.cache.get("812178634957389857");
+  let guild = await client.guilds.cache.get("832424312773410886");
+  let channel = await client.channels.cache.get("832424313142771733");
   let emoji = await member.guild.emojis.cache.find(emoji => emoji.name === "narutojuliet");
   if (guild != member.guild) {
     return console.log("Algum saco pela saiu do servidor. Mas não é nesse, então tá tudo bem :)");
